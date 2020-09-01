@@ -228,7 +228,9 @@ p {
 .circle:hover {
 	background: white;
  }
-
+.hero2-mobile1 {
+	display:none;
+}
 .hero3-container{
 	display: flex;
 	flex-direction: column;
@@ -330,6 +332,9 @@ display: flex;
 	background: #E3B873;
 	border-radius: 2px;
 	border: 1px solid transparent;
+}
+.button-mobile {
+	display:none;
 }
 .line2 {
 	border: none; /* Убираем границу для браузера Firefox */
