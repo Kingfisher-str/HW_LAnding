@@ -58,7 +58,12 @@ p {
 	text-decoration:none;
 	color: white;
 	font-family: Nunito Sans;
+	font-size: 11px;
+	line-height: 15px;
 	}
+.header_navigation_link:hover {
+	color: #E3B873;
+	}		
 	
 .logo {
 	font-size: 11px;
@@ -249,10 +254,10 @@ p {
 }
 .line {
 	margin: 0;
-	border: none; /* Убираем границу для браузера Firefox */
-    color: #E3B873; /* Цвет линии для остальных браузеров */
-    background-color: #E3B873; /* Цвет линии для браузера Firefox и Opera */
-    height: 2px; /* Толщина линии */
+	border: none; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Firefox */
+    color: #E3B873; /* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+    background-color: #E3B873; /* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Firefox пїЅ Opera */
+    height: 2px; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ */
 	/*background: #E3B873;*/
 		width: 32px;
 	}
@@ -284,10 +289,9 @@ display: flex;
 	text-align:center;
 }
 .hero3-wrapper-wrapper {
-	
-	/*display: inline-block;*/
-	/*font-size: 0;*/
 	position: relative;
+	display: inline-block;
+	/*font-size: 0;*/
 	overflow: hidden;
 	margin-bottom: 63px;
 }
@@ -297,9 +301,10 @@ display: flex;
 	top: 0;
 	right: 0;
 	bottom: 0;
+	left: 0;
 	background-color: rgba(0, 0, 0, 0.8);
-	width: 817px;
-	height: 434px;
+	/*width: 817px;
+	height: 434px;*/
 	}
 .hero3-wrapper-wrapper::after{
 	content: "";
@@ -322,6 +327,8 @@ display: flex;
 	justify-content: space-between;
 	margin-top: 91px;
 	margin-bottom: 78px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .button-form {
 	width: 200px;
@@ -337,10 +344,10 @@ display: flex;
 	display:none;
 }
 .line2 {
-	border: none; /* Убираем границу для браузера Firefox */
-    color: #E3B873; /* Цвет линии для остальных браузеров */
-    background-color: #E3B873; /* Цвет линии для браузера Firefox и Opera */
-    height: 2px; /* Толщина линии */
+	border: none; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Firefox */
+    color: #E3B873; /* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+    background-color: #E3B873; /* пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Firefox пїЅ Opera */
+    height: 2px; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ */
 	width:55px;
 	height: 2px
 	}
@@ -567,7 +574,8 @@ padding-left: 25px;
 .repair-request-piggy {
 	display: flex;
     justify-content: flex-end;
-    margin-right: 160px;
+   /* margin-right: 160px;*/
+   margin-top: -100px;
 }
 .clients-title3 {
 font-family: Yeseva One;
