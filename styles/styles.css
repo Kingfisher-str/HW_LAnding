@@ -720,3 +720,6 @@ color: #181818;
 .last-map {
 	margin-top:42px;
 }
+.last-map-mobile {
+	display: none;
+}
