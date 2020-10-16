@@ -42,6 +42,7 @@
 		 flex-flow: column nowrap;
 	justify-content: space-between;
 	height: 340px;
+	margin-left: auto;
 /*	padding-left:2%;
 	padding-right:2%*/
 }
@@ -100,6 +101,18 @@
 }
 .hero3-image {
 	width: 100%;
+}
+.title3 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 138.6%;
+}
+.title3-item {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 135.84%;
 }
 .abzac3 {
 	font-size: 11px;
@@ -177,6 +190,7 @@
 .form-last {
 	width:340px;
 	top:0;
+	margin: 0;
 }
 .last-content {
 	position:absolute;
@@ -190,6 +204,7 @@
 .last-map-mobile {
 	display: block;
 	margin-top:270px;
+	margin-left: auto;
 
 }
 .form-last-title {
@@ -206,4 +221,14 @@
 }
 .footer {
 	display: none;
+}
+.form-last-div{
+	padding: 0px;
+
+ }
+ .button-mobile {
+	display: block;
+	width: 340px;
+	position: relative;
+	bottom: -26px;
 }

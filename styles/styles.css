@@ -102,6 +102,7 @@ p {
 	line-height: 53px;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	margin-bottom: 20px;
 	}
 .title-cvet {
 	color: #E3B873;
@@ -117,11 +118,14 @@ p {
 .hero-container {
 	position: relative;
 	z-index: 1;
-	}
+	width: 600px;
+	margin-left: 18%;
+		}
 .abzac {
 	font-size: 22px;
 	line-height: 36px;
-	color: #FFFFFF
+	color: #FFFFFF;
+	margin-bottom: 20px;
 	}
 .button-hero {
 	width: 207px;
@@ -721,5 +725,8 @@ color: #181818;
 	margin-top:42px;
 }
 .last-map-mobile {
+	display: none;
+}
+.button-mobile{
 	display: none;
 }
