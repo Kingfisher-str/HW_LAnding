@@ -115,11 +115,14 @@ p {
 	bottom: 0;
 	background-color: rgba(0,0,0,.7);
 	}
+.hero-container-content{
+	width: 600px;
+	margin-left: 3%;
+}
 .hero-container {
 	position: relative;
 	z-index: 1;
-	width: 600px;
-	margin-left: 18%;
+	
 		}
 .abzac {
 	font-size: 22px;

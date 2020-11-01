@@ -35,6 +35,10 @@
 	padding-top:85px;
 	height: 476px;   
 }
+.hero-container-content{
+	margin-left: auto;
+	width: 340px;
+}
 .hero-container {
 	 display: flex;
  /*       justify-content: center;
@@ -42,7 +46,7 @@
 		 flex-flow: column nowrap;
 	justify-content: space-between;
 	height: 340px;
-	margin-left: auto;
+	/*margin-left: auto;
 /*	padding-left:2%;
 	padding-right:2%*/
 }
